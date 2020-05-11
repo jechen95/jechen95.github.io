@@ -1,0 +1,20 @@
+.navbar {
+    padding: 0;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    background: lightgrey;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    margin-right: 0;
+}
+.navbar-brand, .nav-link{
+    padding: 1rem;
+}
+
+#icon {
+    margin-right: 0.5rem;
+}
