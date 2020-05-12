@@ -2,7 +2,8 @@
     padding: 0;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.navbar-brand:hover {
     text-decoration: none;
     background: #0068d8;
 }
@@ -25,4 +26,5 @@
 
 #icon {
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
