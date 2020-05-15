@@ -2,29 +2,36 @@
     padding: 0;
 }
 
-.nav-link:hover,
-.navbar-brand:hover {
+.navbar-brand {
+    font-size: 1rem;
+    margin-right: 0;
+}
+.navbar-brand,
+.nav-link{
+    padding: 1rem;
+}
+
+.navbar-brand:hover,
+.nav-link:hover
+{
     text-decoration: none;
     background: #1d2124;
 }
 
 
-.navbar-brand {
-    font-size: 1rem;
-    margin-right: 0;
-}
 
-.navbar-brand, .nav-link{
-    padding: 1rem;
+/*@Override: Navbar items text*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
 }
-
 #icon {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    transition: transform .2s;
 }
 
-.fa-inverse:hover {
-    color: rgb(218, 218, 218);
+#icon:hover {
+    transform: scale(1.5);
 }
 
 
