@@ -107,3 +107,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.contact-info {
+    font-size: .80rem;
+    color: grey;
+}
