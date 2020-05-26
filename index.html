@@ -15,11 +15,11 @@
 
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
-		  <a class="navbar-brand" href="#title">JEFFREY CHEN</a>
+		  <a class="navbar-brand" href="#top">Jeffrey Chen</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <div class="collapse navbar-collapse nav-icons" id="navbarSupportedContent">
 		  	<ul class="navbar-nav mr-auto">
 		  		<li id="icon" class="nav-item"><a href="https://www.linkedin.com/in/ucdavis-jeffrey-chen/" target="_blank"><i class="fab fa-linkedin fa-lg fa-inverse" aria-hidden="true"></i></a></li>
 		  		<li id="icon" class="nav-item"><a href="https://github.com/jechen95" target="_blank"><i class="fab fa-github-square fa-lg fa-inverse"></i></a></li>
@@ -39,110 +39,205 @@
 	  </div>
 	</nav>
 
-
+<!-- Link to top of page-->
+<div id="top"></div>
+<br>
+<br>
 
 <div class='container' align="center" style="margin-top: 100px;">
-	<h1 id="title">Jeffrey Chen</h1>
-	<hr>
-	<h5 >Software Engineer</h5>
-	<h6 >San Francisco, Bay Area</h6>
-	<br>
+	<div class="row">
 
-	<p>Hey! I'm Jeffrey Chen, a back-end Java developer looking to explore the tech stacks. I'm also an aspiring blockchain developer. Cheers!</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="col photo">
+				<img class="img-cropped" id="photo" src="img/gradphoto.jpg" alt="Jeffrey Chen photo">
+		</div>
+
+		<div class="col description">
+			<h1 class="offset" id="title">Jeffrey Chen</h1>
+			<hr>	
+			<h5 >Software Engineer</h5>
+			<h6 >San Francisco, Bay Area</h6>
+			<br>
+
+			<p>Hi! I'm Jeffrey Chen, a recent	graduate working as a software engineer and looking to explore the tech stacks! </p>
+		</div>
+
+	</div>
+	
+	<br>
+	<br>
 	<br>
 	<hr>
 
-	<h3 id="aboutme">
-		<div>About Me</div>
+	<h3 class="offset" id="aboutme">
+		<br>
+		About Me
 	</h3>
 	<br>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="row about-list">
+		<div class="col">
+			<p>I love to build things and see them work in action. In my spare time I love to go hiking and camping, jam out my guitar, lift heavy stuff, and eat (real) tacos.</p>
+		</div>
+		<div class="col">
+			<ul>
+				<div>
+					<li>Education</li>
+					<ul>
+						<li>University of California, Davis</li>
+						<li>Computer Science, B.S.</li>
+					</ul>
+				</div>
+				<div>
+					<li>Interests</li>
+					<ul>
+						<li>Blockchain</li>
+						<li>Decentralized Consensus</li>
+					</ul>
+				</div>
+
+				<div>
+					<li>Highlights</li>
+					<ul>
+						<li>Software Engineer Intern, Ondot Systems</li>
+						<li>Space Invaders Android App <span style="color: grey">(Contact me for a demo!)</span></li>
+					</ul>
+				</div>
+			</ul>
+			<br>
+		</div>
+
+
+	</div>
+	
 	<hr>
 	<br>
 
 	<h3 id="skills">Skills</h3>
+	<br>
 
 	<!-- Skills chart -->
-	<div class="col-8">
-		C++
-		<div class="progress">
-	  	<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+	<div class="row text-left">
+		<div class="col">
+				<div class="lead">Tools & Technologies</div>
+
+				<div class="row">
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/aws-lambda.jpg">
+					</div>
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/bash-logo.jpg" style="height: 75px">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/git-logo.png">
+					</div>
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/bootstrap-stack.png">
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/alexa-logo.png">
+					</div>
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/nodejs-logo.png">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/vscode-logo.png">
+					</div>
+					<div class="col d-flex justify-content-center">
+						<img id="logo-img" src="img/st2-logo.png">
+					</div>
+				</div>
 		</div>
-		Java
-		<div class="progress">
-	  	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		JavaScript
-		<div class="progress">
-	  	<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		MySQL
-		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		Front End
-		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">HTML</div>
-		  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">CSS</div>
-		  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+
+		<div class="col text-center">
+			<div class="jumbotron">
+			  <p class="lead text-left">Languages</p>
+		
+			  Go
+			<div class="progress">
+		  	<div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="animation-direction: reverse; width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+
+			Java
+			<div class="progress">
+		  	<div class="progress-bar  bg-warning" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+			
+			C++
+			<div class="progress">
+		  	<div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+
+			JavaScript
+			<div class="progress">
+		  	<div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+			
+			MySQL
+			<div class="progress">
+			  <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+			
+			HTML
+			<div class="progress">  
+			  <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
+			</div>
+
+			CSS
+			<div class="progress">
+			  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+			</div>
+			
 		</div>
 	</div>	
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<hr>
 	<br>
 
-	<h3 id="contact" >Contact</h3>
+	<h3 id="contact" >Contact Me</h3>
+	<p>Development projects, business opportunities, or building something fun. Let's work together!</p>
 	<div class="row">
 
 		<div class="col"></div>
 
 		<!--Middle column-->
 		<div class="col-6">
-			<form>
+			
+			<form>  
 			  <div class="form-group" align="left">
-			    <label for="inputName">Name</label>
-			    <input type="name" class="form-control" id="inputName" placeholder="Your name"></input>
+			    <label for="inputName"></label>
+			    <input type="name" class="form-control" id="inputName" placeholder="Name"></input>
 			  </div>
+			  
 			  <div class="form-group" align="left">
-			    <label for="inputEmail">Email</label>
-			    <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+			    <label for="inputEmail"></label>
+			    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
 			  </div>
-			  <button type="submit" class="btn btn-primary">Submit</button>
+			  
+		    <div class="form-group">
+			    <label for="inputMessage"></label>
+			    <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+  			</div>
+
+			  <button type="submit" class="btn btn-primary" href="#contact">Submit</button>
 			</form>
+		
 		</div>
 
 		<div class="col"></div>
 
 	</div>
+	<br>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
